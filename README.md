@@ -143,31 +143,7 @@ This flag will automatically run our system in a headless mode, and log the resu
 There might be minor differences between the released version and the results in the paper. Please bear in mind that multi-process performance has some randomness due to GPU utilisation.
 We run all our experiments on an RTX 4090, and the performance may differ when running with a different GPU.
 
-# Acknowledgement
-This work incorporates many open-source codes. We extend our gratitude to the authors of the software.
-- [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting)
-- [Differential Gaussian Rasterization
-](https://github.com/graphdeco-inria/diff-gaussian-rasterization)
-- [SIBR_viewers](https://gitlab.inria.fr/sibr/sibr_core)
-- [Tiny Gaussian Splatting Viewer](https://github.com/limacv/GaussianSplattingViewer)
-- [Open3D](https://github.com/isl-org/Open3D)
-- [Point-SLAM](https://github.com/eriksandstroem/Point-SLAM)
 
-# License
-MonoGS is released under a **LICENSE.md**. For a list of code dependencies which are not property of the authors of MonoGS, please check **Dependencies.md**.
-
-# Citation
-If you found this code/work to be useful in your own research, please considering citing the following:
-
-```bibtex
-@inproceedings{Matsuki:Murai:etal:CVPR2024,
-  title={{G}aussian {S}platting {SLAM}},
-  author={Hidenobu Matsuki and Riku Murai and Paul H. J. Kelly and Andrew J. Davison},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2024}
-}
-
-```
 
 
 
